@@ -31,4 +31,21 @@ html{
     transform: translateX(-50%);
     text-align: center;
 }
+
+.banner-heading{
+    margin-bottom: 4rem;
+    height: 20 rem;
+}
+
+.banner-heading span{
+    font-family: "Oswald", sans-serif;
+    font-size: 12rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white; 
+    text-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 0.5);
+
+}
+
+
 /* End of Section-1 */
