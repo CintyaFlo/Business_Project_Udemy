@@ -13,6 +13,7 @@ html {
     font-size: 62.5%;
 }
 /* End Common Styles */
+
 /* Navbar */
 .navbar{
     width: 100%;
@@ -43,8 +44,23 @@ html {
     font-weight: bold;
     color: #9b0e09;
 }
-
+.nav-list{
+    display: none;
+}
 /* End of Navbar */
+
+/* Menu */
+.menu {
+    width: 4rem;
+    height: 4rem;
+    background-color: #eee;
+    position: fixed;
+    top: 2rem;
+    right: 4rem; 
+    z-index: 100;
+}
+/* End of Menu */
+
 /* Section-1 */
 .section-1 {
      width: 100%;
@@ -84,10 +100,9 @@ html {
     transform: translateZ(8rem);
     opacity: 0;
     letter-spacing: 3rem;
-
 }
-/* heading animations */
 
+/* heading animations */
 @keyframes animateHeading {
     0% {
        transform: translateZ(8rem);
@@ -129,6 +144,7 @@ html {
     animation: animateHeading 10s 10s infinite;
 }
 /* end of heading animations */
+
 .banner-paragraph {
     font-size: 4rem;
     font-weight: 400;
@@ -161,7 +177,7 @@ html {
     position: relative; /* add for make shine animation */
     overflow: hidden; /* add for make shine animation*/
 }
-/*  */
+
 /* button shine animation */
 .banner-btn::before {
     content: "";
@@ -180,7 +196,6 @@ html {
     left: 100%
 }
 /* end of button shine animation */
-
 
 /* fadeanimatoins for paragraph and button */
 @keyframes fadeAnimation {
