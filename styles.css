@@ -36,6 +36,7 @@ html {
     margin-bottom: 4rem;
     height: 20rem;
     perspective: 50rem;
+    overflow: hidden;
 }
 
 .banner-heading span {
@@ -54,7 +55,45 @@ html {
     letter-spacing: 3rem;
 
 }
-
+.heading-1{
+    animation: animateHeading 10s 2.5s infinite;
+}
+.heading-2{
+    animation: animateHeading 10s 5s infinite;
+}
+.heading-3{
+    animation: animateHeading 10s 7.5s infinite;
+}
+.heading-4{
+    animation: animateHeading 10s 10s infinite;
+}
+@keyframes animateHeading {
+ 0%{
+    transform: translateZ(8rem);
+    opacity: 0;
+     letter-spacing: 3rem;
+ }   
+ 5%{
+    transform: translateZ(0);
+    opacity: 1;
+    letter-spacing: 1.5rem;
+ }   
+ 25%{
+    transform: translateZ(0);
+    opacity: 1;
+    letter-spacing: 1.5rem;
+ }   
+ 30%{
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 3rem;
+ }   
+ 100%{
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 3rem;
+ }  
+}
 .banner-paragraph {
     font-size: 4rem;
     font-weight: 400;
