@@ -107,10 +107,19 @@ html {
 .line-1{
     width: 50%;
 }
+.change .line-1 {
+    transform: translate(100%, 1rem) rotate(-35deg);
+    transform-origin: right;
+}
 
-.line-3{
+.line-3 {
     width: 50%;
     margin-left: auto;
+    
+}
+.change .line-3 {
+    transform: translateY(-1rem) rotate(35deg);
+    transform-origin: right;
 }
 /* End of Menu */
 
