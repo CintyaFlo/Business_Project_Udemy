@@ -31,7 +31,7 @@ html {
 }
 
 .logo a {
-    font-family: "VT323", sans-serif;  /*cant instal the downloaded font */
+    font-family: "VT323", monospace;  /*cant instal the downloaded font */
     font-size: 2.5rem;
     color: #eee;
     letter-spacing: 0.1rem;
@@ -39,7 +39,7 @@ html {
 }
 
 .logo span {
-    font-family: "VT323", sans-serif;  /*cant instal the downloaded font */
+    font-family: "VT323", monospace;  /*cant instal the downloaded font */
     font-size: 3.5rem;
     font-weight: bold;
     color: #9b0e09;
@@ -54,17 +54,19 @@ html {
     align-items: center;
 }
 .nav-link {
-    font-family: "VT323", sans-serif; /* INSTALL FONT */
+    font-family: "VT323", monospace; /* INSTALL FONT */
     font-size: 5rem;
     letter-spacing: 0.3rem;
     color: #fff;
     margin: 2rem 0;
-    transition: color 0.4s ease, font-size 0.4s ease, letter-spacing 0.4s ease;
+    transition: color 0.3s ease, font-size 0.3s ease, letter-spacing 0.3s ease;
+    line-height: 1,1; /* Controla o espaçamento entre linhas */
+
 }
 
 .nav-link:hover {
     color: #9b0e09;
-    font-size: 5.2rem;
+    font-size: 5.3rem;
     letter-spacing: 0.35rem;
 }
 /* End of Navbar */
